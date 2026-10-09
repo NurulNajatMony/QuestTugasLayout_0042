@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">TUGAS PERT 4</string>
-</resources>
+    <string name="prodi">Teknologi Informasi</string>
+    <string name="univ">Universitas Muhammadiyah Yogyakarta</string>
+    <string name="nama">Nurul Najat Mony</string>
+    <string name="alamat">Ambon, Maluku</string>
+    <string name="copy">Copyright, 2026</string>
+
