@@ -1,5 +1,6 @@
 package com.example.tugaspert4
 
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
@@ -76,5 +77,17 @@ fun AktivitasKeempat(modifier: Modifier = Modifier) {
             backgroundColorRes = R.color.card_bg_green,
             addressColorRes = R.color.text_white
         )
+
+        Box(
+            modifier = Modifier.fillMaxSize()
+        ) {
+            Text(
+                text = stringResource(id = R.string.copy),
+                modifier = Modifier
+                    .align(Alignment.BottomCenter)
+                    .padding(bottom = 30.dp),
+                color = colorResource(id = R.color.text_black)
+            )
+        }
     }
 }
