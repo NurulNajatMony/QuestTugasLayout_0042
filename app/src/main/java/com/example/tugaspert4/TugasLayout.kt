@@ -151,6 +151,12 @@ fun StudentCard(
                         color = colorResource(id = R.color.text_cyan)
                     )
                 }
+
+                Text(
+                    text = stringResource(id = addressRes),
+                    fontSize = 13.sp,
+                    color = colorResource(id = addressColorRes)
+                )
             }
         }
     }
