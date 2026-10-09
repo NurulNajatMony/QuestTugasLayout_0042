@@ -136,7 +136,13 @@ fun StudentCard(
             Column(
                 modifier = Modifier.weight(1f)
             ) {
-
+                Text(
+                    text = stringResource(id = nameRes),
+                    fontSize = if (nameFontFamily == FontFamily.Cursive) 24.sp else 18.sp,
+                    fontFamily = nameFontFamily,
+                    fontWeight = if (nameFontFamily == FontFamily.Default) FontWeight.Bold else FontWeight.Normal,
+                    color = colorResource(id = R.color.text_white)
+                )
             }
         }
     }
