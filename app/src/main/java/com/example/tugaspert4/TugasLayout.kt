@@ -132,6 +132,12 @@ fun StudentCard(
             )
 
             Spacer(modifier = Modifier.width(10.dp))
+
+            Column(
+                modifier = Modifier.weight(1f)
+            ) {
+
+            }
         }
     }
 }
