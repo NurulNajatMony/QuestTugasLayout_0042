@@ -91,3 +91,17 @@ fun AktivitasKeempat(modifier: Modifier = Modifier) {
         }
     }
 }
+
+
+@Composable
+fun StudentCard(
+    imageRes: Int,
+    nameRes: Int,
+    nimRes: Int?,
+    addressRes: Int,
+    backgroundColorRes: Int,
+    addressColorRes: Int,
+    nameFontFamily: FontFamily = FontFamily.Default
+) {
+
+}
