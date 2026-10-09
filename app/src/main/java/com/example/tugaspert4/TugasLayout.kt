@@ -143,6 +143,14 @@ fun StudentCard(
                     fontWeight = if (nameFontFamily == FontFamily.Default) FontWeight.Bold else FontWeight.Normal,
                     color = colorResource(id = R.color.text_white)
                 )
+
+                if (nimRes != null) {
+                    Text(
+                        text = stringResource(id = nimRes),
+                        fontSize = 13.sp,
+                        color = colorResource(id = R.color.text_cyan)
+                    )
+                }
             }
         }
     }
