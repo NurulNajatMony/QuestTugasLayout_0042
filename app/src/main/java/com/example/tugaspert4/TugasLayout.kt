@@ -11,6 +11,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
@@ -38,5 +39,15 @@ fun AktivitasKeempat(modifier: Modifier = Modifier) {
         )
 
         Spacer(modifier = Modifier.height(16.dp))
+
+        StudentCard(
+            imageRes = R.drawable.logo_umy,
+            nameRes = R.string.nama,
+            nimRes = null,
+            addressRes = R.string.alamat,
+            backgroundColorRes = R.color.card_bg_gray,
+            addressColorRes = R.color.text_yellow,
+            nameFontFamily = FontFamily.Cursive
+        )
     }
 }
