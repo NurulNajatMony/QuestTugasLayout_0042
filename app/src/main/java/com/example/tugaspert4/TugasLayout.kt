@@ -158,6 +158,14 @@ fun StudentCard(
                     color = colorResource(id = addressColorRes)
                 )
             }
+
+            Spacer(modifier = Modifier.width(6.dp))
+
+            Image(
+                painter = painterResource(id = imageRes),
+                contentDescription = null,
+                modifier = Modifier.size(85.dp)
+            )
         }
     }
 }
