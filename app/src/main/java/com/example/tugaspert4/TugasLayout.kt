@@ -67,5 +67,14 @@ fun AktivitasKeempat(modifier: Modifier = Modifier) {
             backgroundColorRes = R.color.card_bg_blue,
             addressColorRes = R.color.text_white
         )
+
+        StudentCard(
+            imageRes = R.drawable.logo_umy,
+            nameRes = R.string.nama_3,
+            nimRes = R.string.nim_3,
+            addressRes = R.string.alamat_3,
+            backgroundColorRes = R.color.card_bg_green,
+            addressColorRes = R.color.text_white
+        )
     }
 }
